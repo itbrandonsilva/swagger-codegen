@@ -174,6 +174,7 @@ public class JavascriptClientCodegen extends DefaultCodegen implements CodegenCo
         typeMapping.put("map", "Object");
         typeMapping.put("List", "Array");
         typeMapping.put("boolean", "Boolean");
+	typeMapping.put("BigDecimal", "number");
         typeMapping.put("string", "String");
         typeMapping.put("int", "Number");
         typeMapping.put("float", "Number");
